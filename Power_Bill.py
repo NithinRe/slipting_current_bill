@@ -9,3 +9,9 @@ Second_floor = meter2*z
 print("first floor bill is  : ",First_floor)
 print("Second floor bill is : ",Second_floor)
 print("Total Bill : ",First_floor+Second_floor)
+a = int(input("Enter Numbr of members in First floor  :"))
+b = int(input("Enter Numbr of members in Second floor :"))
+c = First_floor/a
+d = Second_floor/b
+print("In First floor Each member should pay  : ",c)
+print("In Second floor Each member should pay : ",d)
